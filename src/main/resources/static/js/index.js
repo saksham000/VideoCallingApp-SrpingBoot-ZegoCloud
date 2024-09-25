@@ -17,7 +17,6 @@ function loadAndDisplayUsers() {
             return response.json();
         })
         .then((data) => {
-            console.log(data);
             displayUsers(data, userListElement);
         });
 }
